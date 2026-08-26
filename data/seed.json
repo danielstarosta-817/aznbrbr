@@ -1,0 +1,3074 @@
+{
+  "cities": [
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "country": "USA"
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "country": "USA"
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "country": "USA"
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "country": "France"
+    },
+    {
+      "slug": "lisbon",
+      "name": "Lisbon",
+      "country": "Portugal"
+    },
+    {
+      "slug": "berlin",
+      "name": "Berlin",
+      "country": "Germany"
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "country": "UK"
+    },
+    {
+      "slug": "sydney",
+      "name": "Sydney",
+      "country": "Australia"
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "country": "Canada"
+    },
+    {
+      "slug": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands"
+    },
+    {
+      "slug": "madrid",
+      "name": "Madrid",
+      "country": "Spain"
+    }
+  ],
+  "defaultHomeBarberId": "maison-de-mi-salon-korean-hair-salon-nyc",
+  "barbers": [
+    {
+      "id": "a-cutz-barbershop-nyc",
+      "name": "A Cutz Barbershop",
+      "shopName": "A Cutz Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing, Queens",
+      "address": "147-08 45th Ave, Flushing, NY 11355",
+      "phone": "718-762-4984",
+      "hairTags": [
+        "Fine & straight",
+        "Kids cuts"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 270,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJQVSR6v9hwokRQXdvNlVbTC4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "elevate-barber-studio-nyc",
+      "name": "Elevate Barber Studio",
+      "shopName": "Elevate Barber Studio",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing, Queens",
+      "address": "36-09 Main St, Flushing, NY 11354",
+      "phone": "347-506-0101",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 14,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJITCmaD1hwokRcsHvrvldlUA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "ganji-studio-nyc",
+      "name": "Ganji Studio",
+      "shopName": "Ganji Studio",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing, Queens",
+      "address": "35-30 154th St, Flushing, NY 11354",
+      "phone": "347-885-1305",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 242,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJveKrdEphwokRnxpY9KeiZxI",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "barberking-unisex-barbershop-nyc",
+      "name": "BarberKing Unisex Barbershop",
+      "shopName": "BarberKing Unisex Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing, Queens",
+      "address": "59-22 Kissena Blvd, Flushing, NY 11355",
+      "phone": "718-461-2902",
+      "hairTags": [
+        "Coarse & dense",
+        "Wavy",
+        "Cowlicks & crowns"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.8,
+      "googleReviewCount": 348,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJA118J11gwokRsTWvfyrUEQ4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "galaxy-unisex-barbershop-nyc",
+      "name": "Galaxy Unisex Barbershop",
+      "shopName": "Galaxy Unisex Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing, Queens",
+      "address": "43-09 Main St, Flushing, NY 11355",
+      "phone": "347-445-0978",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.6,
+      "googleReviewCount": 55,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJM-T_DgBhwokRYysz2r7lvrE",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "name": "Maison de MI Salon (Korean Hair Salon)",
+      "shopName": "Maison de MI Salon (Korean Hair Salon)",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Midtown Manhattan",
+      "address": "333 5th Ave 2nd Fl, New York, NY 10016",
+      "phone": "212-725-1460",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 1615,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJV_jcTqhZwokRlBgiUGckBfg",
+      "source": "Google Places",
+      "ownerQuote": {
+        "language": "Korean",
+        "original": "여기 오는 손님 반은 다른 데서 망치고 와요.",
+        "english": "Half the people who come here are fixing a haircut from somewhere else."
+      }
+    },
+    {
+      "id": "sunset-all-stars-barber-shop-nyc",
+      "name": "Sunset All Stars Barber Shop",
+      "shopName": "Sunset All Stars Barber Shop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Sunset Park, Brooklyn",
+      "address": "369 50th St, Brooklyn, NY 11220",
+      "phone": "347-499-5257",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 1273,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJX3ckG6hbwokR2NTTax9g6IQ",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "corte-perfecto-barbershop-nyc",
+      "name": "Corte Perfecto Barbershop",
+      "shopName": "Corte Perfecto Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Sunset Park, Brooklyn",
+      "address": "508 40th St, Brooklyn, NY 11232",
+      "phone": "718-851-1392",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 118,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ1ZUZyMdawokRtsp9HZa5Z04",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "frg-barbershop-1-nyc",
+      "name": "FRG Barbershop #1",
+      "shopName": "FRG Barbershop #1",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Sunset Park, Brooklyn",
+      "address": "509 41st St, Brooklyn, NY 11232",
+      "phone": "347-529-4778",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 403,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJr4zUwsdawokRUn34S_jWBjc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "7-and-7-barbershop-nyc",
+      "name": "7 and 7 Barbershop",
+      "shopName": "7 and 7 Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Park Slope, Brooklyn",
+      "address": "445 7th Ave, Brooklyn, NY 11215",
+      "phone": "917-717-2868",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 425,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJMUkbQuJawokR23esoXrJ1MU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "brooklyn-master-barbershop-nyc",
+      "name": "Brooklyn Master Barbershop",
+      "shopName": "Brooklyn Master Barbershop",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "South Slope, Brooklyn",
+      "address": "699 5th Ave, Brooklyn, NY 11215",
+      "phone": "718-840-2616",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.6,
+      "googleReviewCount": 112,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ_V2PxP1awokRT-6a91cIgak",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "wow-hair-salon-nyc",
+      "name": "Wow Hair Salon",
+      "shopName": "Wow Hair Salon",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Bayside, Queens",
+      "address": "213-02 42nd Ave Ste 5, Bayside, NY 11361",
+      "phone": "956-506-9999",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 185,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJbxEITj1hwokRPajluLFQQRg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "xcellent-beauty-salon-nyc",
+      "name": "Xcellent Beauty Salon",
+      "shopName": "Xcellent Beauty Salon",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Bayside, Queens",
+      "address": "39-36 Bell Blvd, Bayside, NY 11361",
+      "phone": "718-709-9018",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4,
+      "googleReviewCount": 594,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJBaO4rAqKwokRhVBSTm9YQAI",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "y-f-elegant-beauty-salon-nyc",
+      "name": "Y-F Elegant Beauty Salon",
+      "shopName": "Y-F Elegant Beauty Salon",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Bayside, Queens",
+      "address": "42-22 Bell Blvd, Bayside, NY 11361",
+      "phone": "718-229-1900",
+      "hairTags": [
+        "Thick & straight",
+        "Perms"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 132,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJIWgYY-BhwokRJ8mItu5TXfw",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "a-plus-salon-nyc",
+      "name": "A Plus Salon",
+      "shopName": "A Plus Salon",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Flushing/Bayside, Queens",
+      "address": "45-37 Bell Blvd, Flushing, NY 11361",
+      "phone": "929-543-9124",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 80,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ3UBOYy1hwokRkxA-2MG1TuQ",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "tj-hair-salon-nyc",
+      "name": "TJ Hair Salon",
+      "shopName": "TJ Hair Salon",
+      "citySlug": "nyc",
+      "cityName": "New York City",
+      "neighborhood": "Bayside, Queens",
+      "address": "47-42 Bell Blvd, Bayside, NY 11361",
+      "phone": "708-808-9910",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 608,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJb4o8wm1hwokRZ6PdsdGREkY",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "headquarter-salon-chicago",
+      "name": "Headquarter Salon",
+      "shopName": "Headquarter Salon",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Chinatown",
+      "address": "2145 S China Pl, Chicago, IL 60616",
+      "phone": "312-842-1353",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 3.9,
+      "googleReviewCount": 463,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJz36vkWEsDogR8lhAZ9QIUj4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "refined-barber-co-chicago",
+      "name": "Refined Barber Co.",
+      "shopName": "Refined Barber Co.",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Pilsen",
+      "address": "617 W 18th St, Chicago, IL 60616",
+      "phone": "312-265-0360",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 272,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJFb4yxeMtDogR9Q8nfwCZurY",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "shanya-salon-chicago",
+      "name": "Shanya Salon",
+      "shopName": "Shanya Salon",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Chinatown",
+      "address": "2002 S Wentworth Ave, Chicago, IL 60616",
+      "phone": "312-975-3420",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Mandarin"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 3.9,
+      "googleReviewCount": 79,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJD23L6SUtDogRl1IQgjveN_I",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "barbersince-studios-chicago",
+      "name": "BarberSince Studios",
+      "shopName": "BarberSince Studios",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "West Loop",
+      "address": "1101 W Randolph St, Chicago, IL 60607",
+      "phone": "224-631-3427",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 84,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJDbSIqs0tDogRhhP_6luGjlg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "old-town-barbershop-chicago",
+      "name": "Old Town Barbershop",
+      "shopName": "Old Town Barbershop",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "West Loop",
+      "address": "630 W Lake St, Chicago, IL 60661",
+      "phone": "312-786-5044",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.6,
+      "googleReviewCount": 240,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJUxbSWc8sDogRNwg7UqLBVDw",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "park-jun-korean-hair-salon-chicago",
+      "name": "Park Jun Korean Hair Salon",
+      "shopName": "Park Jun Korean Hair Salon",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Niles, IL (Chicago metro)",
+      "address": "8901 N Milwaukee Ave #103, Niles, IL 60714",
+      "phone": "847-966-1777",
+      "hairTags": [
+        "Thick & straight",
+        "Perms"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 3.4,
+      "googleReviewCount": 108,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJqb-S0mjID4gR8RRXMIOJaCc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "park-jun-korean-hair-salon-2nd-location-chicago",
+      "name": "Park Jun Korean Hair Salon (2nd location)",
+      "shopName": "Park Jun Korean Hair Salon (2nd location)",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Niles, IL (Chicago metro)",
+      "address": "814 Civic Center Dr, Niles, IL 60714",
+      "phone": "847-470-0091",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 3.3,
+      "googleReviewCount": 76,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJZ2DJOuTID4gR3y-sawQ94Fo",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "ko-hair-studio-chicago",
+      "name": "KO Hair Studio",
+      "shopName": "KO Hair Studio",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Lincoln Square",
+      "address": "3451 W Foster Ave, Chicago, IL 60625",
+      "phone": "773-934-8791",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 12,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJBeow6DfND4gR_Y3L_9WuNhw",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "oko-salon-chicago",
+      "name": "Oko Salon",
+      "shopName": "Oko Salon",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Bucktown/Wicker Park",
+      "address": "1107 N California Ave, Chicago, IL 60622",
+      "phone": "773-939-1665",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 129,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJJWYvE4zTD4gR8uXjSk5yWbY",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "salon-dorothy-inside-h-mart-chicago",
+      "name": "Salon Dorothy (inside H Mart)",
+      "shopName": "Salon Dorothy (inside H Mart)",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Niles, IL (Chicago metro)",
+      "address": "801 Civic Center Dr #159, Niles, IL 60714",
+      "phone": "847-470-1133",
+      "hairTags": [
+        "Thick & straight",
+        "Perms"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 32,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJUeZt3QnJD4gRMkQzibbkOXc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "lincoln-square-barbershop-chicago",
+      "name": "Lincoln Square Barbershop",
+      "shopName": "Lincoln Square Barbershop",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Lincoln Square",
+      "address": "2415 W Lawrence Ave, Chicago, IL 60625",
+      "phone": "773-888-7492",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 477,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJM_004wTSD4gR6GB7GoerKO8",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "chicago-fade-chicago",
+      "name": "Chicago Fade",
+      "shopName": "Chicago Fade",
+      "citySlug": "chicago",
+      "cityName": "Chicago",
+      "neighborhood": "Lincoln Square",
+      "address": "5118 N Lincoln Ave, Chicago, IL 60625",
+      "phone": "773-561-2329",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.7,
+      "googleReviewCount": 375,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJU1HrHwLSD4gR2KCTJ6Ui9_Y",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "studio-aeon-seattle",
+      "name": "Studio Aeon",
+      "shopName": "Studio Aeon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Pioneer Sq / Intl District border",
+      "address": "816 1st Ave Ste 3, Seattle, WA 98104",
+      "phone": "206-651-4199",
+      "hairTags": [
+        "Coarse & dense"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 22,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ_66gvptrkFQRZaJ74ouWxIg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "basic-cut-seattle",
+      "name": "Basic Cut",
+      "shopName": "Basic Cut",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "International District",
+      "address": "616 S Jackson St, Seattle, WA 98104",
+      "phone": "425-879-0416",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 195,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJa26wY8hrkFQRv7_Rp6aL_pU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "sacred-shears-seattle",
+      "name": "Sacred Shears",
+      "shopName": "Sacred Shears",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Pioneer Sq / Intl District border",
+      "address": "816 1st Ave Ste 12, Seattle, WA 98104",
+      "phone": "708-250-6487",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 5,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJD9u4XYVrkFQRtapKss9wKhU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "cindy-s-beauty-salon-seattle",
+      "name": "Cindy's Beauty Salon",
+      "shopName": "Cindy's Beauty Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "International District",
+      "address": "666 S Jackson St, Seattle, WA 98104",
+      "phone": "206-856-0724",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 61,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJVS4MDrxqkFQRZdvLcHr_iBA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "028-barber-shop-downtown-seattle-seattle",
+      "name": "028 Barber Shop Downtown Seattle",
+      "shopName": "028 Barber Shop Downtown Seattle",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Downtown",
+      "address": "1123 1st Ave, Seattle, WA 98101",
+      "phone": "425-384-0231",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.6,
+      "googleReviewCount": 352,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ-8HMjldrkFQRBRcCrt1rPoA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "salon-yun-seattle",
+      "name": "Salon Yun",
+      "shopName": "Salon Yun",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Lynnwood",
+      "address": "18420 33rd Ave W Ste G, Lynnwood, WA 98037",
+      "phone": "425-412-0112",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 27,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ29K9HasFkFQR2MQF-yhAKO0",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "jk-cutcolor-perm-seattle",
+      "name": "JK CutColor & Perm",
+      "shopName": "JK CutColor & Perm",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Lynnwood",
+      "address": "17214 Hwy 99 Ste 102, Lynnwood, WA 98037",
+      "phone": "408-712-9217",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.8,
+      "googleReviewCount": 63,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJDeK_FGkFkFQRbPhJO3HA0ec",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "jenny-salon-seattle",
+      "name": "Jenny Salon",
+      "shopName": "Jenny Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Lynnwood",
+      "address": "18205 301 Alderwood Mall Pkwy A, Lynnwood, WA 98037",
+      "phone": "206-458-4393",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 25,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJbxCPEX4FkFQRHIgZbmrRWu8",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "kool-hair-seattle",
+      "name": "Kool Hair",
+      "shopName": "Kool Hair",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Lynnwood",
+      "address": "7600 196th St SW, Lynnwood, WA 98036",
+      "phone": "425-672-8001",
+      "hairTags": [
+        "Wavy",
+        "Curly"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.5,
+      "googleReviewCount": 186,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJe9KH980akFQR8mJ9eiaKI_4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "j-hair-salon-seattle",
+      "name": "J Hair Salon",
+      "shopName": "J Hair Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Lynnwood",
+      "address": "3333 184th St SW, Lynnwood, WA 98037",
+      "phone": "425-776-5000",
+      "hairTags": [
+        "Thick & straight",
+        "Fades & tapers"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 170,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJL0dtGQwFkFQRGB-H55Zx5sA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "uppercuts-barbershop-seattle",
+      "name": "Uppercuts Barbershop",
+      "shopName": "Uppercuts Barbershop",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Bellevue",
+      "address": "10620 Main St, Bellevue, WA 98004",
+      "phone": "425-900-9970",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 926,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJPXmu49ZtkFQRcLlz0bxWeIY",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "elia-barbershop-seattle",
+      "name": "Elia Barbershop",
+      "shopName": "Elia Barbershop",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Bellevue",
+      "address": "11115 NE 2nd St, Bellevue, WA 98004",
+      "phone": "425-520-4447",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 281,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJjcNvwDBtkFQRHc7I1MS8kv4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "the-speakeasy-barbershop-seattle",
+      "name": "The Speakeasy Barbershop",
+      "shopName": "The Speakeasy Barbershop",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Bellevue",
+      "address": "14028 NE Bel Red Rd Ste 206, Bellevue, WA 98005",
+      "phone": "425-301-4884",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 413,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJB5s7Rk1tkFQR1acq1-Uq8dg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "presidential-fades-barbershop-seattle",
+      "name": "Presidential Fades Barbershop",
+      "shopName": "Presidential Fades Barbershop",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Bellevue",
+      "address": "1513 128th Pl NE, Bellevue, WA 98005",
+      "phone": "206-446-0169",
+      "hairTags": [
+        "Curly"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 60,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJkay7wwBtkFQRBtYGnTxFemc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "north-towne-barbershop-seattle",
+      "name": "North Towne Barbershop",
+      "shopName": "North Towne Barbershop",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Bellevue",
+      "address": "2634 Bellevue Way NE, Bellevue, WA 98004",
+      "phone": "425-827-4466",
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 231,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJxdFJysFskFQRGISqD9Pifso",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "instyle-hair-salon-seattle",
+      "name": "Instyle Hair Salon",
+      "shopName": "Instyle Hair Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "International District",
+      "address": "668 S Lane St Apt 102, Seattle, WA 98104",
+      "phone": "206-669-5384",
+      "hairTags": [
+        "Cowlicks & crowns"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 49,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJgYVRB71qkFQRHyzRCNXonKY",
+      "source": "Google Places + community forum",
+      "ownerQuote": null
+    },
+    {
+      "id": "salon-206-seattle",
+      "name": "Salon 206",
+      "shopName": "Salon 206",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Beacon Hill area",
+      "address": "2603 S McClellan St, Seattle, WA 98144",
+      "phone": "206-723-1446",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 130,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ8e3-TmJqkFQR8s7uoYr-vy8",
+      "source": "Google Places + community forum",
+      "ownerQuote": null
+    },
+    {
+      "id": "hair-bank-seattle",
+      "name": "Hair Bank",
+      "shopName": "Hair Bank",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Federal Way, WA (Seattle metro)",
+      "address": "1805 S 316th St # A105, Federal Way, WA 98003",
+      "phone": "253-839-0118",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.2,
+      "googleReviewCount": 74,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJUZdGp3lXkFQRCBk2pRrL88M",
+      "source": "Google Places + community forum",
+      "ownerQuote": null
+    },
+    {
+      "id": "falali-hair-salon-seattle",
+      "name": "Falali Hair Salon",
+      "shopName": "Falali Hair Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Chinatown-International District",
+      "address": "623 S King St, Seattle, WA 98104",
+      "phone": "206-483-4666",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Mandarin",
+        "Cantonese"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 520,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ33_Eg5prkFQRstpvwaXuPXY",
+      "source": "Google Places",
+      "ownerQuote": {
+        "language": "Cantonese",
+        "original": "你唔使解釋，我一睇就知你想點。",
+        "english": "You don't need to explain. I can tell what you want by looking."
+      }
+    },
+    {
+      "id": "minh-dc-hair-salon-seattle",
+      "name": "Minh DC Hair Salon",
+      "shopName": "Minh DC Hair Salon",
+      "citySlug": "seattle",
+      "cityName": "Seattle",
+      "neighborhood": "Beacon Hill area",
+      "address": "1237 S Jackson St, Seattle, WA 98144",
+      "phone": "425-322-6550",
+      "hairTags": [
+        "Thick & straight",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 67,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJs59yubJrkFQRGPNrCyY0UcA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "anny-choisy-paris",
+      "name": "Anny Choisy",
+      "shopName": "Anny Choisy",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "32 Av. de Choisy, 75013 Paris",
+      "phone": "+33 1 45 70 80 89",
+      "hairTags": [
+        "Thick & straight",
+        "Colour"
+      ],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.3,
+      "googleReviewCount": 258,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJH7bObodx5kcRFr2v4UkK7e4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "choisy-coiffure-sarl-paris",
+      "name": "Choisy Coiffure Sarl",
+      "shopName": "Choisy Coiffure Sarl",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "117 Bd Masseena, 75013 Paris",
+      "phone": "+33 6 03 59 65 56",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 188,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJt9hpoIBx5kcRU3oVxK2fQF8",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "mony-coiffure-paris",
+      "name": "Mony Coiffure",
+      "shopName": "Mony Coiffure",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "41 Av. de Choisy, 75013 Paris",
+      "phone": "+33 1 53 60 05 97",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "French",
+        "Khmer"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.1,
+      "googleReviewCount": 51,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ1StTbIdx5kcRx09_c15psQM",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "jacques-philippe-coiffure-paris",
+      "name": "Jacques Philippe Coiffure",
+      "shopName": "Jacques Philippe Coiffure",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "129 Av. de Choisy, 75013 Paris",
+      "phone": "+33 1 45 84 31 62",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.5,
+      "googleReviewCount": 215,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJI7Qxt4hx5kcRS9-QnUZ7X1Q",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "emilie-vany-coiffure-paris",
+      "name": "Emilie Vany - Coiffure",
+      "shopName": "Emilie Vany - Coiffure",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "Tour Bergame, 3 Av. de Choisy, 75013 Paris",
+      "phone": "+33 1 45 83 05 32",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 3.9,
+      "googleReviewCount": 126,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJUTmZBCpy5kcRmXVFehpyoVc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "coiffure-en-vogue-paris",
+      "name": "Coiffure en Vogue",
+      "shopName": "Coiffure en Vogue",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "110 Av. de Choisy, 75013 Paris",
+      "phone": "+33 1 44 24 04 48",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 3.9,
+      "googleReviewCount": 33,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJj9DEJoZx5kcRIhdGdQ0e7Dw",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "hair-and-spa-by-christian-lacout-paris",
+      "name": "Hair and Spa by Christian Lacout",
+      "shopName": "Hair and Spa by Christian Lacout",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "Belleville, 19e",
+      "address": "111 Rue de Belleville, 75019 Paris",
+      "phone": "+33 1 42 08 40 65",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.7,
+      "googleReviewCount": 359,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJNweIbupt5kcRpbfOL6dnOjY",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "freaza-belviso-paris",
+      "name": "Freaza Belviso",
+      "shopName": "Freaza Belviso",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "Belleville, 20e",
+      "address": "92 Rue de Belleville, 75020 Paris",
+      "phone": "+33 1 70 23 72 73",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 113,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJV1x_KuNt5kcRC9BhufBEmtU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "jean-louis-david-coiffeur-paris-paris",
+      "name": "Jean Louis David - Coiffeur Paris",
+      "shopName": "Jean Louis David - Coiffeur Paris",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "Belleville, 20e",
+      "address": "138 Rue de Belleville, 75020 Paris",
+      "phone": "+33 1 43 58 12 60",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.7,
+      "googleReviewCount": 1249,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJYbtVo-pt5kcRP5buetz7i3s",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "jean-claude-biguine-jourdain-paris",
+      "name": "Jean-Claude Biguine Jourdain",
+      "shopName": "Jean-Claude Biguine Jourdain",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "Belleville, 19e",
+      "address": "149 Rue de Belleville, 75019 Paris",
+      "phone": "+33 1 42 00 30 83",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.3,
+      "googleReviewCount": 255,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJk4tTGsBt5kcRa8JRhXZiOhw",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "meilleur-coiffeur-paris",
+      "name": "Meilleur Coiffeur",
+      "shopName": "Meilleur Coiffeur",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "Belleville, 20e",
+      "address": "118 Rue de Belleville, 75020 Paris",
+      "phone": "+33 6 67 28 85 06",
+      "hairTags": [],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.3,
+      "googleReviewCount": 86,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ75ovdAVt5kcRL3zoGhS46eU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "rvb-coiffure-paris",
+      "name": "RVB Coiffure",
+      "shopName": "RVB Coiffure",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - near Chateau des Rentiers",
+      "address": "165 Rue du Chateau des Rentiers, 75013 Paris",
+      "phone": "+33 6 98 68 66 88",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "French",
+        "Mandarin"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.8,
+      "googleReviewCount": 358,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJp-WyhIlx5kcRBkB22nq5S5M",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "sakura-coiffure-paris",
+      "name": "Sakura Coiffure",
+      "shopName": "Sakura Coiffure",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - Avenue de Choisy (Asian Quarter)",
+      "address": "18 Rue Philibert Lucot, 75013 Paris",
+      "phone": "+33 1 44 24 52 34",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "French",
+        "Mandarin",
+        "Khmer"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 134,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ001w4YZx5kcRL1CIwQYf4wk",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "alexandre-henry-coiffeur-paris-13-paris",
+      "name": "Alexandre Henry Coiffeur Paris 13",
+      "shopName": "Alexandre Henry Coiffeur Paris 13",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e",
+      "address": "56 Rue Corvisart, 75013 Paris",
+      "phone": "+33 1 43 31 19 18",
+      "hairTags": [
+        "Curly"
+      ],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 654,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJvbjMU5Fx5kcRW0oOgXfzu_k",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "liling-lei-paris",
+      "name": "Liling-Lei",
+      "shopName": "Liling-Lei",
+      "citySlug": "paris",
+      "cityName": "Paris",
+      "neighborhood": "13e - near Corvisart",
+      "address": "7 Rue Veronese, 75013 Paris",
+      "phone": "+33 1 45 35 88 30",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "French"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 64,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJteRScY1x5kcRXkMqxRARAJA",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "eurobangla-lisbon",
+      "name": "EuroBangla",
+      "shopName": "EuroBangla",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Martim Moniz",
+      "address": "R. do Benformoso 110 r/c, 1100-087 Lisboa",
+      "phone": "+351 937 337 713",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4,
+      "googleReviewCount": 140,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ5VrmHoYzGQ0RQzEQmmGQ7CU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "shane-s-hairstudio-asian-lisbon",
+      "name": "Shane's HairStudio \"Asian\"",
+      "shopName": "Shane's HairStudio \"Asian\"",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Rua dos Anjos",
+      "address": "Largo Santa Barbara, Rua dos Anjos 6A, 1150-191 Lisboa",
+      "phone": "+351 936 825 171",
+      "hairTags": [
+        "Thick & straight",
+        "Perms"
+      ],
+      "languagesSpoken": [
+        "Portuguese",
+        "Mandarin"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.9,
+      "googleReviewCount": 87,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJgeyzljczGQ0R-NgslhGgVZ4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "lisbon-classic-hair-salon-chinese-named-lisbon",
+      "name": "Lisbon Classic Hair Salon (Chinese-named)",
+      "shopName": "Lisbon Classic Hair Salon (Chinese-named)",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Martim Moniz",
+      "address": "R. Fernandes da Fonseca 12 1Drt, 1100-238 Lisboa",
+      "phone": "+351 966 229 367",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "Portuguese",
+        "Mandarin"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 11,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJn6oZ100zGQ0R7ane7Ik-kPg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "kaler-barber-shop-lisbon",
+      "name": "Kaler Barber Shop",
+      "shopName": "Kaler Barber Shop",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Rua dos Anjos",
+      "address": "Rua dos Anjos 69B, 1150-035 Lisboa",
+      "phone": null,
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 5,
+      "googleReviewCount": 16,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJxT5FKQAzGQ0RomovQMp2NAQ",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "arun-barber-shop-lisbon",
+      "name": "Arun Barber Shop",
+      "shopName": "Arun Barber Shop",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Rua dos Anjos",
+      "address": "Rua dos Anjos 20D, 1150-038 Lisboa",
+      "phone": "+351 21 814 0394",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.6,
+      "googleReviewCount": 140,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJtRLuQ4UzGQ0Re1Axy5ojz50",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "barsha-beauty-salon-lisbon",
+      "name": "Barsha Beauty Salon",
+      "shopName": "Barsha Beauty Salon",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Martim Moniz",
+      "address": "R. do Arco do Marques de Alegrete 4D, 1100-034 Lisboa",
+      "phone": "+351 920 522 330",
+      "hairTags": [
+        "Fine & straight"
+      ],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.4,
+      "googleReviewCount": 186,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJv2hulIczGQ0RAY0N8uPcoyU",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "cabeleireiro-studio-fio-de-ouro-lisbon",
+      "name": "Cabeleireiro Studio Fio de Ouro",
+      "shopName": "Cabeleireiro Studio Fio de Ouro",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Anjos",
+      "address": "R. Ferreira da Silva 10A, 1900-228 Lisboa",
+      "phone": "+351 930 440 140",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 2627,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJx3QFdCQzGQ0RccyiTCuB5O4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "cut-shout-hair-salon-lisbon-lisbon",
+      "name": "Cut&Shout Hair Salon Lisbon",
+      "shopName": "Cut&Shout Hair Salon Lisbon",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Baixa",
+      "address": "R. de Sao Mamede 16, 1100-171 Lisboa",
+      "phone": "+351 926 083 563",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 560,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJq06Ds341GQ0RVhc74VN5xyM",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "helder-pedro-lda-hairdressers-lisbon",
+      "name": "Helder & Pedro Lda Hairdressers",
+      "shopName": "Helder & Pedro Lda Hairdressers",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Baixa",
+      "address": "R. de Sao Juliao 116 1andar, 1100-048 Lisboa",
+      "phone": "+351 21 346 0262",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 245,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJO3BVmXk0GQ0RxVB-0COLzik",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "kooa-hair-lisbon",
+      "name": "KOOA Hair",
+      "shopName": "KOOA Hair",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Poiais de Sao Bento",
+      "address": "R. dos Poiais de Sao Bento 112 114, 1200-350 Lisboa",
+      "phone": "+351 21 595 9199",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.8,
+      "googleReviewCount": 244,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJZVCGMR01GQ0Rrcry3JWBwC8",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "hair-fusion-lisboa-lisbon",
+      "name": "Hair Fusion Lisboa",
+      "shopName": "Hair Fusion Lisboa",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Chiado",
+      "address": "Tv. do Carmo n14, 1200-095 Lisboa",
+      "phone": "+351 916 939 506",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.5,
+      "googleReviewCount": 254,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJDaOWPX80GQ0R08WNStSMOT4",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "espaco-brasil-lisbon",
+      "name": "Espaco Brasil",
+      "shopName": "Espaco Brasil",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Anjos",
+      "address": "Rua do Forno do Tijolo 31, 1170-210 Lisboa",
+      "phone": "+351 21 606 2062",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.7,
+      "googleReviewCount": 235,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJHZq4E5AzGQ0RMKUAxo43W4w",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "espaco-brasil-cabeleireiros-parque-lisbon",
+      "name": "Espaco Brasil Cabeleireiros - Parque",
+      "shopName": "Espaco Brasil Cabeleireiros - Parque",
+      "citySlug": "lisbon",
+      "cityName": "Lisbon",
+      "neighborhood": "Parque",
+      "address": "Av. Antonio Augusto de Aguiar 11c, 1050-012 Lisboa",
+      "phone": "+351 934 574 457",
+      "hairTags": [],
+      "languagesSpoken": [
+        "Portuguese"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.9,
+      "googleReviewCount": 106,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJEf4F8LwzGQ0Rvys4KGLkvlg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "viet-thuc-dong-xuan-center-berlin",
+      "name": "Viet Thuc Dong Xuan Center",
+      "shopName": "Viet Thuc Dong Xuan Center",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Lichtenberg (Dong Xuan Center)",
+      "address": "Herzbergstrasse 128-139, 10365 Berlin",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Vietnamese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4,
+      "googleReviewCount": 1,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ2wV-vz9PqEcR-QAujj4z5h8",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "huong-hiep-toc-berlin",
+      "name": "Huong Hiep Toc",
+      "shopName": "Huong Hiep Toc",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Lichtenberg (Dong Xuan Center)",
+      "address": "Halle 3 Raum 307a, Herzbergstrasse 128-139, 10365 Berlin",
+      "phone": "+49 1522 3057586",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "German"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.7,
+      "googleReviewCount": 50,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJeQWvV5tOqEcRV1BRjXSmEXw",
+      "source": "Google Places",
+      "ownerQuote": {
+        "language": "Vietnamese",
+        "original": "Tóc dày dễ thôi. Tóc mỏng mới khó.",
+        "english": "Thick hair is the easy part. It's thin hair that's hard."
+      }
+    },
+    {
+      "id": "huong-lab-hair-tattoo-berlin",
+      "name": "Huong Lab Hair & Tattoo",
+      "shopName": "Huong Lab Hair & Tattoo",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Lichtenberg (Dong Xuan Center)",
+      "address": "Herzbergstrasse 128-139/Halle 3, 10365 Berlin",
+      "phone": "+49 1520 1044678",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Vietnamese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 5,
+      "googleReviewCount": 25,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJYbtdaetPqEcRxRopt7b9iqc",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "friseur-viet-thuc-am-alexanderplatz-berlin",
+      "name": "Friseur Viet Thuc am Alexanderplatz",
+      "shopName": "Friseur Viet Thuc am Alexanderplatz",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Alexanderplatz",
+      "address": "Alexanderpl. 2, 10178 Berlin",
+      "phone": "+49 1522 1456789",
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Vietnamese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 3.9,
+      "googleReviewCount": 170,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ1ZEUZRdPqEcRPqnZH82RD9M",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "liyong-friseursalon-chinese-named-berlin",
+      "name": "Liyong Friseursalon (Chinese-named)",
+      "shopName": "Liyong Friseursalon (Chinese-named)",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Charlottenburg",
+      "address": "Wundtstrasse 16, 14059 Berlin",
+      "phone": "+49 176 23250573",
+      "hairTags": [
+        "Thick & straight",
+        "Fades & tapers"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Mandarin"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.1,
+      "googleReviewCount": 100,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJP2bU5edRqEcRxILwfDgtHJM",
+      "source": "Google Places",
+      "ownerQuote": {
+        "language": "Mandarin",
+        "original": "我不会剪白人的头发，我也不会说英文。你要是华人，来就对了。",
+        "english": "I don't know how to cut white people's hair and I don't speak English. If you're Chinese, you're in the right place."
+      }
+    },
+    {
+      "id": "nina-berlin",
+      "name": "NINA",
+      "shopName": "NINA",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Charlottenburg",
+      "address": "Leibnizstrasse 20, 10625 Berlin",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight",
+        "Fades & tapers"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Korean",
+        "Japanese"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.9,
+      "googleReviewCount": 857,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJ78Jn0t9RqEcRYGswCHn6zpg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "iramasure-hair-studio-schoeneberg-berlin",
+      "name": "iramasure Hair studio Schoeneberg",
+      "shopName": "iramasure Hair studio Schoeneberg",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Schoeneberg",
+      "address": "Winterfeldtstrasse 13, 10781 Berlin",
+      "phone": "+49 30 34503066",
+      "hairTags": [
+        "Thick & straight",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "German",
+        "Japanese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.6,
+      "googleReviewCount": 275,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJmzJH8EhQqEcRkEox_L50Xxk",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "iramasure-hair-studio-friedrichshain-am-boxi-berlin",
+      "name": "iramasure Hair studio Friedrichshain am Boxi",
+      "shopName": "iramasure Hair studio Friedrichshain am Boxi",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Friedrichshain",
+      "address": "Gaertnerstrasse 11, 10245 Berlin",
+      "phone": "+49 30 97002670",
+      "hairTags": [
+        "Thick & straight",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "German"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": 4.8,
+      "googleReviewCount": 165,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJZSb3lslPqEcRjpoSZtoanhg",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "hair-art-design-berlin",
+      "name": "Hair Art Design",
+      "shopName": "Hair Art Design",
+      "citySlug": "berlin",
+      "cityName": "Berlin",
+      "neighborhood": "Mitte",
+      "address": "Brueckenstrasse 4, 10179 Berlin",
+      "phone": "+49 30 91474586",
+      "hairTags": [],
+      "languagesSpoken": [
+        "German"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": 4.2,
+      "googleReviewCount": 396,
+      "mapsLink": "https://www.google.com/maps/place/?q=place_id:ChIJX1NEfwhPqEcRPZf-6DyhXgI",
+      "source": "Google Places",
+      "ownerQuote": null
+    },
+    {
+      "id": "the-fountain-hair-korean-hair-salon-london",
+      "name": "The Fountain Hair (Korean Hair Salon)",
+      "shopName": "The Fountain Hair (Korean Hair Salon)",
+      "citySlug": "london",
+      "cityName": "London",
+      "neighborhood": "New Malden (Korean high street)",
+      "address": "122 Malden Road, New Malden",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site + Fresha listing)",
+      "ownerQuote": null
+    },
+    {
+      "id": "tovi-hair-salon-london",
+      "name": "TOVI Hair Salon",
+      "shopName": "TOVI Hair Salon",
+      "citySlug": "london",
+      "cityName": "London",
+      "neighborhood": "New Malden (Korean high street)",
+      "address": "Park Road, New Malden",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site)",
+      "ownerQuote": null
+    },
+    {
+      "id": "bokko-korean-hair-salon-london",
+      "name": "Bokko Korean Hair Salon",
+      "shopName": "Bokko Korean Hair Salon",
+      "citySlug": "london",
+      "cityName": "London",
+      "neighborhood": "New Malden (Korean high street)",
+      "address": "New Malden",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site)",
+      "ownerQuote": null
+    },
+    {
+      "id": "f4fade-london",
+      "name": "F4Fade",
+      "shopName": "F4Fade",
+      "citySlug": "london",
+      "cityName": "London",
+      "neighborhood": "West London",
+      "address": null,
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (press/directory mentions)",
+      "ownerQuote": null
+    },
+    {
+      "id": "dnk-hair-sydney",
+      "name": "DNK Hair",
+      "shopName": "DNK Hair",
+      "citySlug": "sydney",
+      "cityName": "Sydney",
+      "neighborhood": "Eastwood (Koreatown)",
+      "address": "100 Rowe St, Eastwood, NSW",
+      "phone": "(02) 9874 4448",
+      "hairTags": [
+        "Thick & straight",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site + Yelp/review aggregator snippets)",
+      "ownerQuote": {
+        "language": "Korean",
+        "original": "펌은 자신 있어요. 영어는 자신 없어요.",
+        "english": "I'm confident with perms. Less confident with English."
+      }
+    },
+    {
+      "id": "kim-sun-young-hair-sydney",
+      "name": "Kim Sun Young Hair",
+      "shopName": "Kim Sun Young Hair",
+      "citySlug": "sydney",
+      "cityName": "Sydney",
+      "neighborhood": "Haymarket / multiple",
+      "address": "764 George St, Haymarket, NSW (also World Square, Strathfield, Liverpool St)",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight",
+        "Perms"
+      ],
+      "languagesSpoken": [
+        "English",
+        "Korean"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.9,
+      "googleReviewCount": 2541,
+      "mapsLink": null,
+      "source": "Web search (Fresha + Yelp listing)",
+      "ownerQuote": null
+    },
+    {
+      "id": "artis-hair-pacific-mall-unit-b69-toronto",
+      "name": "Artis Hair (Pacific Mall, unit B69)",
+      "shopName": "Artis Hair (Pacific Mall, unit B69)",
+      "citySlug": "toronto",
+      "cityName": "Toronto",
+      "neighborhood": "Pacific Mall, Markham",
+      "address": "Pacific Mall, Markham, ON",
+      "phone": null,
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (mall directory)",
+      "ownerQuote": null
+    },
+    {
+      "id": "g-z-hair-salon-pacific-mall-unit-f31-toronto",
+      "name": "G.Z. Hair Salon (Pacific Mall, unit F31)",
+      "shopName": "G.Z. Hair Salon (Pacific Mall, unit F31)",
+      "citySlug": "toronto",
+      "cityName": "Toronto",
+      "neighborhood": "Pacific Mall, Markham",
+      "address": "Pacific Mall, Markham, ON",
+      "phone": null,
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (mall directory)",
+      "ownerQuote": null
+    },
+    {
+      "id": "unnamed-chinatown-centre-hairdressers-toronto",
+      "name": "Unnamed Chinatown Centre hairdressers",
+      "shopName": "Unnamed Chinatown Centre hairdressers",
+      "citySlug": "toronto",
+      "cityName": "Toronto",
+      "neighborhood": "Downtown Chinatown",
+      "address": "222 Spadina Ave (Chinatown Centre), Toronto, ON",
+      "phone": null,
+      "hairTags": [],
+      "languagesSpoken": [
+        "English"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (forum mentions)",
+      "ownerQuote": null
+    },
+    {
+      "id": "mensplace-barbershop-barber-ogun-amsterdam",
+      "name": "MensPlace Barbershop (barber: Ogun)",
+      "shopName": "MensPlace Barbershop (barber: Ogun)",
+      "citySlug": "amsterdam",
+      "cityName": "Amsterdam",
+      "neighborhood": "Oud-West",
+      "address": "Staringplein 20HS, 1054 VL Amsterdam",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "Dutch"
+      ],
+      "signalStrength": "High",
+      "isConfirmed": true,
+      "googleRating": 4.9,
+      "googleReviewCount": 669,
+      "mapsLink": null,
+      "source": "Web search (business site + Tripadvisor)",
+      "ownerQuote": null
+    },
+    {
+      "id": "assort-amsterdam-amsterdam",
+      "name": "ASSORT AMSTERDAM",
+      "shopName": "ASSORT AMSTERDAM",
+      "citySlug": "amsterdam",
+      "cityName": "Amsterdam",
+      "neighborhood": "City center",
+      "address": null,
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "Dutch",
+        "Japanese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site)",
+      "ownerQuote": null
+    },
+    {
+      "id": "hair-studio-picnic-amsterdam",
+      "name": "Hair Studio Picnic",
+      "shopName": "Hair Studio Picnic",
+      "citySlug": "amsterdam",
+      "cityName": "Amsterdam",
+      "neighborhood": "Amsterdam / Rotterdam",
+      "address": null,
+      "phone": null,
+      "hairTags": [
+        "Thick & straight",
+        "Perms",
+        "Straightening & rebonding"
+      ],
+      "languagesSpoken": [
+        "Dutch",
+        "Japanese"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (business site)",
+      "ownerQuote": null
+    },
+    {
+      "id": "hairone-salon-de-peluqueria-y-barberia-madrid",
+      "name": "HAIRONE Salon de peluqueria y Barberia (华人美发店)",
+      "shopName": "HAIRONE Salon de peluqueria y Barberia (华人美发店)",
+      "citySlug": "madrid",
+      "cityName": "Madrid",
+      "neighborhood": "Usera (Madrid's Chinatown)",
+      "address": "Usera, Madrid",
+      "phone": null,
+      "hairTags": [
+        "Thick & straight"
+      ],
+      "languagesSpoken": [
+        "Spanish",
+        "Mandarin"
+      ],
+      "signalStrength": "Medium",
+      "isConfirmed": true,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (Booksy listing)",
+      "ownerQuote": null
+    },
+    {
+      "id": "dharma-peluqueros-madrid",
+      "name": "Dharma Peluqueros",
+      "shopName": "Dharma Peluqueros",
+      "citySlug": "madrid",
+      "cityName": "Madrid",
+      "neighborhood": "Usera (Madrid's Chinatown)",
+      "address": "Calle Marcelo de Usera, Madrid",
+      "phone": null,
+      "hairTags": [],
+      "languagesSpoken": [
+        "Spanish"
+      ],
+      "signalStrength": "None",
+      "isConfirmed": false,
+      "googleRating": null,
+      "googleReviewCount": null,
+      "mapsLink": null,
+      "source": "Web search (directory listing)",
+      "ownerQuote": null
+    }
+  ],
+  "vouches": [
+    {
+      "id": "v1",
+      "voucherId": "Daniel",
+      "voucherType": "customer",
+      "subjectId": "a-cutz-barbershop-nyc",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Years of stylists telling me my hair was 'difficult'. She looked at it once and just got on with it."
+    },
+    {
+      "id": "v2",
+      "voucherId": "Priya",
+      "voucherType": "customer",
+      "subjectId": "barberking-unisex-barbershop-nyc",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My hair grows in about four directions and he worked with it instead of fighting it. It still sits right two weeks later."
+    },
+    {
+      "id": "v3",
+      "voucherId": "Jonathan",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Years of stylists telling me my hair was 'difficult'. She looked at it once and just got on with it."
+    },
+    {
+      "id": "v4",
+      "voucherId": "Mei",
+      "voucherType": "customer",
+      "subjectId": "y-f-elegant-beauty-salon-nyc",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Got a perm here after two bad ones elsewhere. This one actually held its shape and didn't wreck my hair."
+    },
+    {
+      "id": "v5",
+      "voucherId": "Omar",
+      "voucherType": "customer",
+      "subjectId": "headquarter-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v6",
+      "voucherId": "Ken",
+      "voucherType": "customer",
+      "subjectId": "shanya-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v7",
+      "voucherId": "Sarah",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Korean",
+      "quote": "Went in for perms and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v8",
+      "voucherId": "Grace",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My experience was good, but I've heard enough mixed things from other people that I wouldn't send someone here blind."
+    },
+    {
+      "id": "v9",
+      "voucherId": "Alex",
+      "voucherType": "operator",
+      "subjectId": "park-jun-korean-hair-salon-2nd-location-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Korean",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Sarah's shop",
+      "voucherCity": "New York City"
+    },
+    {
+      "id": "v10",
+      "voucherId": "Ken",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-2nd-location-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My experience was good, but I've heard enough mixed things from other people that I wouldn't send someone here blind."
+    },
+    {
+      "id": "v11",
+      "voucherId": "Omar",
+      "voucherType": "customer",
+      "subjectId": "salon-dorothy-inside-h-mart-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Korean",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v12",
+      "voucherId": "David",
+      "voucherType": "customer",
+      "subjectId": "studio-aeon-seattle",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "He clocked how coarse my hair was the second I sat down. Nobody else has ever mentioned it — they just cut and hope."
+    },
+    {
+      "id": "v13",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "basic-cut-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v14",
+      "voucherId": "Josh",
+      "voucherType": "customer",
+      "subjectId": "salon-yun-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Felt exactly like getting my hair done back home — same technique, same attention, none of the guesswork."
+    },
+    {
+      "id": "v15",
+      "voucherId": "Yuki",
+      "voucherType": "customer",
+      "subjectId": "jk-cutcolor-perm-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Years of stylists telling me my hair was 'difficult'. She looked at it once and just got on with it."
+    },
+    {
+      "id": "v16",
+      "voucherId": "David",
+      "voucherType": "customer",
+      "subjectId": "jk-cutcolor-perm-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My experience was good, but I've heard enough mixed things from other people that I wouldn't send someone here blind."
+    },
+    {
+      "id": "v17",
+      "voucherId": "Ben",
+      "voucherType": "customer",
+      "subjectId": "jenny-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "I used to genuinely think I had to fly home for a decent haircut. Not anymore."
+    },
+    {
+      "id": "v18",
+      "voucherId": "David",
+      "voucherType": "customer",
+      "subjectId": "kool-hair-seattle",
+      "tag": "Wavy",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Finally someone who didn't treat the wave in my hair like a problem to be flattened out."
+    },
+    {
+      "id": "v19",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "j-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Went in for fades & tapers and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v20",
+      "voucherId": "Josh",
+      "voucherType": "customer",
+      "subjectId": "presidential-fades-barbershop-seattle",
+      "tag": "Curly",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Finally someone who didn't treat the wave in my hair like a problem to be flattened out."
+    },
+    {
+      "id": "v21",
+      "voucherId": "Yuki",
+      "voucherType": "customer",
+      "subjectId": "instyle-hair-salon-seattle",
+      "tag": "Cowlicks & crowns",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "My hair grows in about four directions and he worked with it instead of fighting it. It still sits right two weeks later."
+    },
+    {
+      "id": "v22",
+      "voucherId": "Aiko",
+      "voucherType": "customer",
+      "subjectId": "salon-206-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v23",
+      "voucherId": "Ben",
+      "voucherType": "customer",
+      "subjectId": "hair-bank-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v24",
+      "voucherId": "David",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Cantonese",
+      "quote": "She knew exactly how to layer it without the whole thing losing weight. First time someone got that right without me asking."
+    },
+    {
+      "id": "v25",
+      "voucherId": "Linh",
+      "voucherType": "operator",
+      "subjectId": "minh-dc-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Aiko's shop",
+      "voucherCity": "London"
+    },
+    {
+      "id": "v26",
+      "voucherId": "Camille",
+      "voucherType": "customer",
+      "subjectId": "anny-choisy-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "Went in for colour and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v27",
+      "voucherId": "Sophie",
+      "voucherType": "customer",
+      "subjectId": "anny-choisy-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "On m'a coupé les cheveux comme je le voulais, sans avoir à tout expliquer trois fois."
+    },
+    {
+      "id": "v28",
+      "voucherId": "Thomas",
+      "voucherType": "customer",
+      "subjectId": "anny-choisy-paris",
+      "tag": "Colour",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "I'd go back for a cut without thinking twice. The colour was a different story — it came out patchy and I had to get it fixed elsewhere."
+    },
+    {
+      "id": "v29",
+      "voucherId": "Marc",
+      "voucherType": "customer",
+      "subjectId": "mony-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Khmer",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v30",
+      "voucherId": "Camille",
+      "voucherType": "customer",
+      "subjectId": "mony-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "The cut itself was fine, but I got quoted one price and charged another. Confirm what you're paying before you sit down."
+    },
+    {
+      "id": "v31",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "jacques-philippe-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "Thick hair usually means someone thinning it into oblivion. Not here — he actually knows how to take weight out properly."
+    },
+    {
+      "id": "v32",
+      "voucherId": "Camille",
+      "voucherType": "customer",
+      "subjectId": "rvb-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Mandarin",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v33",
+      "voucherId": "Sophie",
+      "voucherType": "customer",
+      "subjectId": "rvb-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "On m'a coupé les cheveux comme je le voulais, sans avoir à tout expliquer trois fois."
+    },
+    {
+      "id": "v34",
+      "voucherId": "Sophie",
+      "voucherType": "operator",
+      "subjectId": "sakura-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Khmer",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Camille's shop",
+      "voucherCity": "London"
+    },
+    {
+      "id": "v35",
+      "voucherId": "Thomas",
+      "voucherType": "customer",
+      "subjectId": "sakura-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "On m'a coupé les cheveux comme je le voulais, sans avoir à tout expliquer trois fois."
+    },
+    {
+      "id": "v36",
+      "voucherId": "Thomas",
+      "voucherType": "customer",
+      "subjectId": "alexandre-henry-coiffeur-paris-13-paris",
+      "tag": "Curly",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "Finally someone who didn't treat the wave in my hair like a problem to be flattened out."
+    },
+    {
+      "id": "v37",
+      "voucherId": "Trung",
+      "voucherType": "customer",
+      "subjectId": "alexandre-henry-coiffeur-paris-13-paris",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My experience was good, but I've heard enough mixed things from other people that I wouldn't send someone here blind."
+    },
+    {
+      "id": "v38",
+      "voucherId": "Camille",
+      "voucherType": "customer",
+      "subjectId": "liling-lei-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v39",
+      "voucherId": "Trang",
+      "voucherType": "customer",
+      "subjectId": "eurobangla-lisbon",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Portuguese",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v40",
+      "voucherId": "Rui",
+      "voucherType": "operator",
+      "subjectId": "shane-s-hairstudio-asian-lisbon",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Mandarin",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Wei's shop",
+      "voucherCity": "New York City"
+    },
+    {
+      "id": "v41",
+      "voucherId": "Ana",
+      "voucherType": "customer",
+      "subjectId": "lisbon-classic-hair-salon-chinese-named-lisbon",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Mandarin",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v42",
+      "voucherId": "Maria",
+      "voucherType": "customer",
+      "subjectId": "barsha-beauty-salon-lisbon",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Portuguese",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v43",
+      "voucherId": "Lukas",
+      "voucherType": "customer",
+      "subjectId": "viet-thuc-dong-xuan-center-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Vietnamese",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v44",
+      "voucherId": "Mai",
+      "voucherType": "operator",
+      "subjectId": "huong-hiep-toc-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Anh's shop",
+      "voucherCity": "London"
+    },
+    {
+      "id": "v45",
+      "voucherId": "Chau",
+      "voucherType": "customer",
+      "subjectId": "huong-hiep-toc-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "German",
+      "quote": "Kein Aufpreis, keine Ausreden — einfach ein guter Schnitt für dickes Haar."
+    },
+    {
+      "id": "v46",
+      "voucherId": "Chau",
+      "voucherType": "customer",
+      "subjectId": "huong-lab-hair-tattoo-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Vietnamese",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v47",
+      "voucherId": "Nina",
+      "voucherType": "customer",
+      "subjectId": "friseur-viet-thuc-am-alexanderplatz-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Vietnamese",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v48",
+      "voucherId": "Anh",
+      "voucherType": "operator",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Mandarin",
+      "quote": "I've sent regulars here when they're in town. They come back happy, which is the only review that matters to me.",
+      "voucherName": "Nina's shop",
+      "voucherCity": "New York City"
+    },
+    {
+      "id": "v49",
+      "voucherId": "Mai",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "German",
+      "quote": "Kein Aufpreis, keine Ausreden — einfach ein guter Schnitt für dickes Haar."
+    },
+    {
+      "id": "v50",
+      "voucherId": "Chau",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "The cut itself was fine, but I got quoted one price and charged another. Confirm what you're paying before you sit down."
+    },
+    {
+      "id": "v51",
+      "voucherId": "Felix",
+      "voucherType": "customer",
+      "subjectId": "nina-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Japanese",
+      "quote": "Went in for fades & tapers and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v52",
+      "voucherId": "Chau",
+      "voucherType": "customer",
+      "subjectId": "iramasure-hair-studio-schoeneberg-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Japanese",
+      "quote": "Went in for straightening & rebonding and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v53",
+      "voucherId": "Lukas",
+      "voucherType": "customer",
+      "subjectId": "iramasure-hair-studio-schoeneberg-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My experience was good, but I've heard enough mixed things from other people that I wouldn't send someone here blind."
+    },
+    {
+      "id": "v54",
+      "voucherId": "Anh",
+      "voucherType": "customer",
+      "subjectId": "iramasure-hair-studio-friedrichshain-am-boxi-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "German",
+      "quote": "Went in for straightening & rebonding and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v55",
+      "voucherId": "Felix",
+      "voucherType": "customer",
+      "subjectId": "iramasure-hair-studio-friedrichshain-am-boxi-berlin",
+      "tag": "Straightening & rebonding",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "A friend had a chemical treatment here and it damaged her hair badly. I'd get a cut here, nothing more, until more people weigh in."
+    },
+    {
+      "id": "v56",
+      "voucherId": "Tom",
+      "voucherType": "customer",
+      "subjectId": "the-fountain-hair-korean-hair-salon-london",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v57",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "tovi-hair-salon-london",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v58",
+      "voucherId": "Grace",
+      "voucherType": "customer",
+      "subjectId": "bokko-korean-hair-salon-london",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Korean",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v59",
+      "voucherId": "James",
+      "voucherType": "customer",
+      "subjectId": "f4fade-london",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Everyone in the neighbourhood goes here and now I understand why. No fuss, just a good cut every time."
+    },
+    {
+      "id": "v60",
+      "voucherId": "Jack",
+      "voucherType": "customer",
+      "subjectId": "dnk-hair-sydney",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Walked in not expecting much and got the best cut I've had since leaving Seoul. They didn't need me to explain anything."
+    },
+    {
+      "id": "v61",
+      "voucherId": "Chloe",
+      "voucherType": "customer",
+      "subjectId": "dnk-hair-sydney",
+      "tag": "Straightening & rebonding",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "The cut was great, but I got straightening done here and my hair was dry and unmanageable for weeks after. Go for the cut, not the chemical work."
+    },
+    {
+      "id": "v62",
+      "voucherId": "Minh",
+      "voucherType": "customer",
+      "subjectId": "kim-sun-young-hair-sydney",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Korean",
+      "quote": "Walked in not expecting much and got the best cut I've had since leaving Seoul. They didn't need me to explain anything."
+    },
+    {
+      "id": "v63",
+      "voucherId": "Amy",
+      "voucherType": "customer",
+      "subjectId": "kim-sun-young-hair-sydney",
+      "tag": "Perms",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My cut was solid, but the perm dropped out within a few weeks. Ask how recently they've done one before you book it."
+    },
+    {
+      "id": "v64",
+      "voucherId": "Tom",
+      "voucherType": "customer",
+      "subjectId": "mensplace-barbershop-barber-ogun-amsterdam",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Dutch",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v65",
+      "voucherId": "Anh",
+      "voucherType": "customer",
+      "subjectId": "assort-amsterdam-amsterdam",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Japanese",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v66",
+      "voucherId": "Sanne",
+      "voucherType": "customer",
+      "subjectId": "hair-studio-picnic-amsterdam",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Japanese",
+      "quote": "Went in for perms and it's the first time I haven't left second-guessing the result."
+    },
+    {
+      "id": "v67",
+      "voucherId": "Wei",
+      "voucherType": "customer",
+      "subjectId": "hairone-salon-de-peluqueria-y-barberia-madrid",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Mandarin",
+      "quote": "First place in this city where I didn't have to explain my hair before they started cutting."
+    },
+    {
+      "id": "v68",
+      "voucherId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "voucherType": "operator",
+      "voucherName": "Maison de MI Salon",
+      "voucherCity": "New York City",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "I sent a client here while they were traveling through Seattle — same care with thick, straight hair that we give in the chair here."
+    }
+  ]
+}

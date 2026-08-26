@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.env*
+*.log
+.DS_Store
+.vercel
+
+# Research and business documents are kept out of the repo.
+# The app doesn't read them at runtime — data/seed.json is the only data the
+# app loads, and it's generated from the spreadsheets by scripts/build_seed.py.
+# Keep these locally (or in shared storage), not in git.
+*.xlsx
+*.pdf
+*.docx
+*.pptx

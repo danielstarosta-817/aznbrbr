@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    background-color: theme("colors.shell");
+    color: theme("colors.ink");
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  /* Small-caps tracked label — the workhorse of the whole design system.
+     Used for section headings, meta lines, and anything that isn't display type. */
+  .label {
+    @apply text-[10px] uppercase tracking-label font-medium text-muted-2;
+  }
+
+  .label-ink {
+    @apply label text-ink;
+  }
+
+  /* Underlined form field, editorial style — no boxes, no chrome. */
+  .field {
+    @apply border-b border-ink pb-2;
+  }
+
+  .field select,
+  .field input {
+    @apply w-full border-none bg-transparent p-0 font-display text-[19px] font-normal tracking-[-0.02em] text-ink;
+    outline: none;
+  }
+
+  .btn-primary {
+    @apply bg-forest px-6 py-3 text-[11px] font-medium uppercase tracking-[0.12em] text-paper transition-colors;
+  }
+
+  .btn-primary:hover {
+    @apply bg-ink;
+  }
+
+  /* Hairline-separated list row. Deliberately not a card — rows read as a
+     considered index, floating cards read as a dashboard. */
+  .row {
+    @apply grid grid-cols-[auto_1fr_auto] items-center gap-[18px] border-t border-rule px-8 py-5 transition-colors;
+  }
+
+  .row:hover {
+    @apply bg-paper-2;
+  }
+
+  .mono-avatar {
+    @apply flex items-center justify-center rounded-full font-display text-paper;
+  }
+}
