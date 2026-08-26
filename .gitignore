@@ -13,3 +13,7 @@ node_modules/
 *.pdf
 *.docx
 *.pptx
+
+# Personal working notes — business/strategy thinking, not project files.
+competitive-positioning-and-value.md
+market-and-business-analysis.md
