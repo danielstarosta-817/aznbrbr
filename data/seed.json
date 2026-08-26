@@ -136,7 +136,9 @@
       "hairTags": [
         "Coarse & dense",
         "Wavy",
-        "Cowlicks & crowns"
+        "Cowlicks & crowns",
+        "Thick & straight",
+        "Curly"
       ],
       "languagesSpoken": [
         "English"
@@ -180,7 +182,11 @@
       "address": "333 5th Ave 2nd Fl, New York, NY 10016",
       "phone": "212-725-1460",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Perms",
+        "Fine & straight",
+        "Curly",
+        "Colour"
       ],
       "languagesSpoken": [
         "English",
@@ -532,7 +538,8 @@
       "phone": "847-966-1777",
       "hairTags": [
         "Thick & straight",
-        "Perms"
+        "Perms",
+        "Straightening & rebonding"
       ],
       "languagesSpoken": [
         "English",
@@ -892,7 +899,8 @@
       "phone": "425-776-5000",
       "hairTags": [
         "Thick & straight",
-        "Fades & tapers"
+        "Fades & tapers",
+        "Wavy"
       ],
       "languagesSpoken": [
         "English"
@@ -1045,7 +1053,8 @@
       "address": "2603 S McClellan St, Seattle, WA 98144",
       "phone": "206-723-1446",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Coarse & dense"
       ],
       "languagesSpoken": [
         "English"
@@ -1091,7 +1100,9 @@
       "address": "623 S King St, Seattle, WA 98104",
       "phone": "206-483-4666",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Curly",
+        "Fades & tapers"
       ],
       "languagesSpoken": [
         "English",
@@ -1213,7 +1224,9 @@
       "address": "129 Av. de Choisy, 75013 Paris",
       "phone": "+33 1 45 84 31 62",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Fine & straight",
+        "Curly"
       ],
       "languagesSpoken": [
         "French"
@@ -1383,7 +1396,8 @@
       "address": "165 Rue du Chateau des Rentiers, 75013 Paris",
       "phone": "+33 6 98 68 66 88",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Coarse & dense"
       ],
       "languagesSpoken": [
         "French",
@@ -1407,7 +1421,8 @@
       "address": "18 Rue Philibert Lucot, 75013 Paris",
       "phone": "+33 1 44 24 52 34",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Perms"
       ],
       "languagesSpoken": [
         "French",
@@ -1502,7 +1517,8 @@
       "phone": "+351 936 825 171",
       "hairTags": [
         "Thick & straight",
-        "Perms"
+        "Perms",
+        "Curly"
       ],
       "languagesSpoken": [
         "Portuguese",
@@ -1786,7 +1802,8 @@
       "address": "Halle 3 Raum 307a, Herzbergstrasse 128-139, 10365 Berlin",
       "phone": "+49 1522 3057586",
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Coarse & dense"
       ],
       "languagesSpoken": [
         "German"
@@ -1862,7 +1879,9 @@
       "phone": "+49 176 23250573",
       "hairTags": [
         "Thick & straight",
-        "Fades & tapers"
+        "Fades & tapers",
+        "Coarse & dense",
+        "Fine & straight"
       ],
       "languagesSpoken": [
         "German",
@@ -1891,7 +1910,9 @@
       "phone": null,
       "hairTags": [
         "Thick & straight",
-        "Fades & tapers"
+        "Fades & tapers",
+        "Fine & straight",
+        "Wavy"
       ],
       "languagesSpoken": [
         "German",
@@ -1986,7 +2007,9 @@
       "address": "122 Malden Road, New Malden",
       "phone": null,
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Fine & straight",
+        "Fades & tapers"
       ],
       "languagesSpoken": [
         "English"
@@ -2058,7 +2081,9 @@
       "address": null,
       "phone": null,
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Fades & tapers",
+        "Cowlicks & crowns"
       ],
       "languagesSpoken": [
         "English"
@@ -2082,7 +2107,8 @@
       "phone": "(02) 9874 4448",
       "hairTags": [
         "Thick & straight",
-        "Straightening & rebonding"
+        "Straightening & rebonding",
+        "Fades & tapers"
       ],
       "languagesSpoken": [
         "English",
@@ -2111,7 +2137,8 @@
       "phone": null,
       "hairTags": [
         "Thick & straight",
-        "Perms"
+        "Perms",
+        "Colour"
       ],
       "languagesSpoken": [
         "English",
@@ -2198,7 +2225,9 @@
       "address": "Staringplein 20HS, 1054 VL Amsterdam",
       "phone": null,
       "hairTags": [
-        "Thick & straight"
+        "Thick & straight",
+        "Coarse & dense",
+        "Curly"
       ],
       "languagesSpoken": [
         "Dutch"
@@ -3069,6 +3098,699 @@
       "identityBadge": false,
       "language": "English",
       "quote": "I sent a client here while they were traveling through Seattle — same care with thick, straight hair that we give in the chair here."
+    },
+    {
+      "id": "x69",
+      "voucherId": "Grace",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Third time back. She takes weight out without thinning it into that fluffy mess everyone else leaves me with."
+    },
+    {
+      "id": "x70",
+      "voucherId": "Terrence",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "I'm mixed and my hair curls when it's short. She was lovely about it but clearly guessing — ended up uneven at the back."
+    },
+    {
+      "id": "x71",
+      "voucherId": "Yuki",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "Booked because my mum has gone here for eleven years. Now I understand the loyalty."
+    },
+    {
+      "id": "x72",
+      "voucherId": "Marcus",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Fades & tapers",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Asked for a mid fade and got something closer to a bowl with opinions. Great cut, wrong request."
+    },
+    {
+      "id": "x73",
+      "voucherId": "Josh",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Fades & tapers",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Fade was fine, honestly. Not the sharpest I've had but nobody at work noticed anything wrong."
+    },
+    {
+      "id": "x74",
+      "voucherId": "Dylan",
+      "voucherType": "customer",
+      "subjectId": "falali-hair-salon-seattle",
+      "tag": "Curly",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Wavy-to-curly and she did better than expected. Wouldn't call it her specialty but I'd go back."
+    },
+    {
+      "id": "x75",
+      "voucherId": "Danny",
+      "voucherType": "customer",
+      "subjectId": "j-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Asked for the standard Asian men's short cut and he just nodded. No twenty questions. Done in half an hour."
+    },
+    {
+      "id": "x76",
+      "voucherId": "Sang-woo",
+      "voucherType": "customer",
+      "subjectId": "j-hair-salon-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "He noticed my crown sits weird and adjusted for it without me saying anything. That's the whole job."
+    },
+    {
+      "id": "x77",
+      "voucherId": "Priya",
+      "voucherType": "customer",
+      "subjectId": "j-hair-salon-seattle",
+      "tag": "Wavy",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My hair is wavy and thick and he treated it like it was straight. Fine for a month, then it went triangular."
+    },
+    {
+      "id": "x78",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "salon-206-seattle",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Vietnamese",
+      "quote": "Family-run, and it shows — the aunty running it has done this for decades and has zero patience for nonsense."
+    },
+    {
+      "id": "x79",
+      "voucherId": "Ben",
+      "voucherType": "customer",
+      "subjectId": "salon-206-seattle",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Cheapest good haircut I've had in this city and it wasn't close."
+    },
+    {
+      "id": "x80",
+      "voucherId": "Jonathan",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Came in after four years of telling barbers 'no, shorter on top but not like that'. She got it in one."
+    },
+    {
+      "id": "x81",
+      "voucherId": "Mei",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Perms",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Got a soft perm that actually looked intentional. My coworkers thought I'd just started sleeping better."
+    },
+    {
+      "id": "x82",
+      "voucherId": "Rachel",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "My hair is stubbornly flat. This is the first cut that's had any movement in it since school."
+    },
+    {
+      "id": "x83",
+      "voucherId": "Aaron",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Half-Korean, half-Puerto Rican, and my hair does what it wants. They were honest that it isn't their thing, which I respected — but I did leave with a mullet I didn't ask for."
+    },
+    {
+      "id": "x84",
+      "voucherId": "Kenji",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Colour",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "The cut is worth the price. The colour was not — went ashy and patched within two weeks."
+    },
+    {
+      "id": "x85",
+      "voucherId": "Hana",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Colour",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Colour came out well for me, for what it's worth. Maybe I got lucky, maybe I asked for something simpler."
+    },
+    {
+      "id": "x86",
+      "voucherId": "Nadia",
+      "voucherType": "customer",
+      "subjectId": "maison-de-mi-salon-korean-hair-salon-nyc",
+      "tag": "Curly",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Loose curls, decent result. She was upfront that it isn't what she does most days."
+    },
+    {
+      "id": "x87",
+      "voucherId": "Wei",
+      "voucherType": "customer",
+      "subjectId": "a-cutz-barbershop-nyc",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "Brought my son whose hair is fine and flops everywhere. First barber who didn't just buzz it and give up."
+    },
+    {
+      "id": "x88",
+      "voucherId": "Danny",
+      "voucherType": "customer",
+      "subjectId": "a-cutz-barbershop-nyc",
+      "tag": "Kids cuts",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "He kept my kid entertained for the entire cut, which is frankly a bigger skill than the haircut."
+    },
+    {
+      "id": "x89",
+      "voucherId": "Andre",
+      "voucherType": "customer",
+      "subjectId": "barberking-unisex-barbershop-nyc",
+      "tag": "Cowlicks & crowns",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "My hair grows in three directions off one crown. He mapped it out loud like a man reading a weather chart, then fixed it."
+    },
+    {
+      "id": "x90",
+      "voucherId": "Sophia",
+      "voucherType": "customer",
+      "subjectId": "barberking-unisex-barbershop-nyc",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Walk-in on a Saturday, twenty minute wait, best fifteen dollars I've spent."
+    },
+    {
+      "id": "x91",
+      "voucherId": "Tom",
+      "voucherType": "customer",
+      "subjectId": "barberking-unisex-barbershop-nyc",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Straight hair, they're excellent. My curly friend went on my recommendation and did not thank me for it."
+    },
+    {
+      "id": "x92",
+      "voucherId": "Chau",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "The owner told me my previous barber should be ashamed. He was right and I have not gone back to them."
+    },
+    {
+      "id": "x93",
+      "voucherId": "Anh",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "German",
+      "quote": "Twenty-two euros, twenty-five minutes, no conversation about my holiday plans. Perfect."
+    },
+    {
+      "id": "x94",
+      "voucherId": "Felix",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Fades & tapers",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Genuinely brilliant with Chinese hair. I asked for a European-style short back and sides and it was not his finest hour."
+    },
+    {
+      "id": "x95",
+      "voucherId": "Lukas",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Fine & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Mine is fine and German and he clearly found it boring. Serviceable, not inspired."
+    },
+    {
+      "id": "x96",
+      "voucherId": "Jonas",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Fades & tapers",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Got a taper and it was completely fine. Everyone warned me off and I think they oversold the problem."
+    },
+    {
+      "id": "x97",
+      "voucherId": "Maximilian",
+      "voucherType": "customer",
+      "subjectId": "liyong-friseursalon-chinese-named-berlin",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Straightforward cut, straightforward price, no attempt to sell me anything. I'll take it."
+    },
+    {
+      "id": "x98",
+      "voucherId": "Mai",
+      "voucherType": "customer",
+      "subjectId": "huong-hiep-toc-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Vietnamese",
+      "quote": "Inside the Dong Xuan Center, past the phone repair place. Worth the trek — no premium for thick hair, unlike everywhere in Mitte."
+    },
+    {
+      "id": "x99",
+      "voucherId": "Nina",
+      "voucherType": "customer",
+      "subjectId": "huong-hiep-toc-berlin",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Vietnamese",
+      "quote": "She fixed a cut a Prenzlauer Berg salon charged me sixty euros to ruin."
+    },
+    {
+      "id": "x100",
+      "voucherId": "Jonas",
+      "voucherType": "customer",
+      "subjectId": "huong-hiep-toc-berlin",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Bring cash and bring patience for the parking. Everything else is easy."
+    },
+    {
+      "id": "x101",
+      "voucherId": "Aiko",
+      "voucherType": "customer",
+      "subjectId": "nina-berlin",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Japanese",
+      "quote": "Asked for a Japanese-style short bob and got exactly that, not a European approximation of it."
+    },
+    {
+      "id": "x102",
+      "voucherId": "Sarah",
+      "voucherType": "customer",
+      "subjectId": "nina-berlin",
+      "tag": "Wavy",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "German",
+      "quote": "Slight natural wave that most stylists flatten. She cut with it instead of against it."
+    },
+    {
+      "id": "x103",
+      "voucherId": "Amy",
+      "voucherType": "customer",
+      "subjectId": "kim-sun-young-hair-sydney",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Been going to their Strathfield branch for years. Consistent in a way that sounds boring until you've had a bad haircut abroad."
+    },
+    {
+      "id": "x104",
+      "voucherId": "Jack",
+      "voucherType": "customer",
+      "subjectId": "kim-sun-young-hair-sydney",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Massive place, runs like a machine, somehow still feels personal."
+    },
+    {
+      "id": "x105",
+      "voucherId": "Chloe",
+      "voucherType": "customer",
+      "subjectId": "kim-sun-young-hair-sydney",
+      "tag": "Colour",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Cut, yes. Colour, no — I went in for ash brown and came out with a shade I'd describe as 'unresolved'."
+    },
+    {
+      "id": "x106",
+      "voucherId": "Yuna",
+      "voucherType": "customer",
+      "subjectId": "dnk-hair-sydney",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Thirty years in Eastwood and it shows. He cut my hair while telling me about Itaewon in the eighties."
+    },
+    {
+      "id": "x107",
+      "voucherId": "David",
+      "voucherType": "customer",
+      "subjectId": "dnk-hair-sydney",
+      "tag": "Fades & tapers",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Surprisingly good fade for a salon that mostly does perms."
+    },
+    {
+      "id": "x108",
+      "voucherId": "Trung",
+      "voucherType": "customer",
+      "subjectId": "jacques-philippe-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "He has been cutting hair on this street for longer than I have been alive, and he cuts thick hair like it's nothing."
+    },
+    {
+      "id": "x109",
+      "voucherId": "Camille",
+      "voucherType": "customer",
+      "subjectId": "jacques-philippe-coiffure-paris",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "Not fashionable. Extremely competent. I'll take that trade every time."
+    },
+    {
+      "id": "x110",
+      "voucherId": "Marc",
+      "voucherType": "customer",
+      "subjectId": "jacques-philippe-coiffure-paris",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "My hair is properly curly and he cut it dry like it was straight. It looked fine wet, which is not the goal."
+    },
+    {
+      "id": "x111",
+      "voucherId": "Linh",
+      "voucherType": "customer",
+      "subjectId": "rvb-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "Old-school Vietnamese barbershop energy — hot towel, no music, total silence. I loved it."
+    },
+    {
+      "id": "x112",
+      "voucherId": "Thomas",
+      "voucherType": "customer",
+      "subjectId": "rvb-coiffure-paris",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "Someone thanked the barber in Chinese while I was waiting and he answered without looking up. Good sign."
+    },
+    {
+      "id": "x113",
+      "voucherId": "Sophie",
+      "voucherType": "customer",
+      "subjectId": "sakura-coiffure-paris",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "French",
+      "quote": "She speaks four languages and used three of them during my appointment. The cut was also excellent."
+    },
+    {
+      "id": "x114",
+      "voucherId": "Trung",
+      "voucherType": "customer",
+      "subjectId": "sakura-coiffure-paris",
+      "tag": "Perms",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "French",
+      "quote": "Soft perm, no damage, and she talked me out of the more aggressive one I originally asked for."
+    },
+    {
+      "id": "x115",
+      "voucherId": "Wei",
+      "voucherType": "customer",
+      "subjectId": "shane-s-hairstudio-asian-lisbon",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Mandarin",
+      "quote": "Found it because the sign literally says Asian. Stayed because he's the only person in Lisbon who's got my hair right."
+    },
+    {
+      "id": "x116",
+      "voucherId": "Rui",
+      "voucherType": "customer",
+      "subjectId": "shane-s-hairstudio-asian-lisbon",
+      "tag": "Perms",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Portuguese",
+      "quote": "Down perm that didn't destroy my hair. In this city that's practically a miracle."
+    },
+    {
+      "id": "x117",
+      "voucherId": "Ana",
+      "voucherType": "customer",
+      "subjectId": "shane-s-hairstudio-asian-lisbon",
+      "tag": "Curly",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "Portuguese",
+      "quote": "He was upfront that curly isn't his specialty. Booked anyway, my mistake not his."
+    },
+    {
+      "id": "x118",
+      "voucherId": "Grace",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-chicago",
+      "tag": "Straightening & rebonding",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Straight perm came out soft, not flat. Ask for the senior stylist and it's a different experience entirely."
+    },
+    {
+      "id": "x119",
+      "voucherId": "Ken",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Genuinely inconsistent depending who you get. When it's good it's the best in the metro area."
+    },
+    {
+      "id": "x120",
+      "voucherId": "Alex",
+      "voucherType": "customer",
+      "subjectId": "park-jun-korean-hair-salon-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Got a junior stylist on a Saturday and left with a shelf at the back. Ask who you're booking with."
+    },
+    {
+      "id": "x121",
+      "voucherId": "Minh",
+      "voucherType": "customer",
+      "subjectId": "salon-dorothy-inside-h-mart-chicago",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "It's inside an H Mart. You can get a perm and buy groceries. I don't know why this isn't the standard everywhere."
+    },
+    {
+      "id": "x122",
+      "voucherId": "Sarah",
+      "voucherType": "customer",
+      "subjectId": "salon-dorothy-inside-h-mart-chicago",
+      "tag": "Perms",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Cheaper than downtown by half and better than the last three places I tried."
+    },
+    {
+      "id": "x123",
+      "voucherId": "Minji",
+      "voucherType": "customer",
+      "subjectId": "the-fountain-hair-korean-hair-salon-london",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Korean",
+      "quote": "Worth the trip to New Malden. The whole high street is Korean and this is the one people actually queue for."
+    },
+    {
+      "id": "x124",
+      "voucherId": "Kevin",
+      "voucherType": "customer",
+      "subjectId": "the-fountain-hair-korean-hair-salon-london",
+      "tag": "Fine & straight",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Fine, flat, hopeless hair. She gave it shape without a single product I'd need to buy."
+    },
+    {
+      "id": "x125",
+      "voucherId": "James",
+      "voucherType": "customer",
+      "subjectId": "the-fountain-hair-korean-hair-salon-london",
+      "tag": "Fades & tapers",
+      "sentiment": "caution",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Superb with Korean styles. My skin fade was, generously, a work in progress."
+    },
+    {
+      "id": "x126",
+      "voucherId": "Daniel",
+      "voucherType": "customer",
+      "subjectId": "the-fountain-hair-korean-hair-salon-london",
+      "tag": "Fades & tapers",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Fade was solid. I think you just have to be specific about the guard number rather than assuming."
+    },
+    {
+      "id": "x127",
+      "voucherId": "Tom",
+      "voucherType": "customer",
+      "subjectId": "f4fade-london",
+      "tag": "Fades & tapers",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "English",
+      "quote": "Does Afro, European and Asian hair and doesn't act like any of them is the hard one."
+    },
+    {
+      "id": "x128",
+      "voucherId": "Grace",
+      "voucherType": "customer",
+      "subjectId": "f4fade-london",
+      "tag": "Cowlicks & crowns",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "English",
+      "quote": "Double crown, fifteen years of bad haircuts, sorted in one sitting."
+    },
+    {
+      "id": "x129",
+      "voucherId": "Duc",
+      "voucherType": "customer",
+      "subjectId": "mensplace-barbershop-barber-ogun-amsterdam",
+      "tag": "Thick & straight",
+      "sentiment": "recommend",
+      "identityBadge": true,
+      "language": "Dutch",
+      "quote": "Ogun has cut every texture that's walked into that shop since 2016 and it shows the second he starts."
+    },
+    {
+      "id": "x130",
+      "voucherId": "Lars",
+      "voucherType": "customer",
+      "subjectId": "mensplace-barbershop-barber-ogun-amsterdam",
+      "tag": "Coarse & dense",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Dutch",
+      "quote": "Booked on a friend's word, went back three weeks later. Same cut, same quality, no drama."
+    },
+    {
+      "id": "x131",
+      "voucherId": "Sanne",
+      "voucherType": "customer",
+      "subjectId": "mensplace-barbershop-barber-ogun-amsterdam",
+      "tag": "Curly",
+      "sentiment": "recommend",
+      "identityBadge": false,
+      "language": "Dutch",
+      "quote": "Rare to find someone equally unbothered by coily hair and by mine."
     }
   ]
 }

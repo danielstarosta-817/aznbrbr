@@ -5,6 +5,10 @@ node_modules/
 .DS_Store
 .vercel
 
+# Python bytecode, generated whenever the seed scripts run.
+__pycache__/
+*.pyc
+
 # Research and business documents are kept out of the repo.
 # The app doesn't read them at runtime — data/seed.json is the only data the
 # app loads, and it's generated from the spreadsheets by scripts/build_seed.py.

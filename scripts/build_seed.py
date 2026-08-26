@@ -15,11 +15,21 @@ against, per the six-city seed data the spec references.
 Run: python3 scripts/build_seed.py
 """
 import json
+import os
 import re
+import sys
+
 import openpyxl
 
-SRC = "asian_hair_barber_seed_list.xlsx"
-OUT = "data/seed.json"
+# Resolve paths relative to this file, so the script works from anywhere.
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.dirname(SCRIPT_DIR)
+sys.path.insert(0, SCRIPT_DIR)
+
+from extra_vouches import EXTRA_VOUCHES  # noqa: E402
+
+SRC = os.path.join(REPO_ROOT, "asian_hair_barber_seed_list.xlsx")
+OUT = os.path.join(REPO_ROOT, "data", "seed.json")
 
 CITY_META = {
     "NYC": {"slug": "nyc", "name": "New York City", "country": "USA"},
@@ -446,6 +456,34 @@ def main():
             "language": "English",
             "quote": "I sent a client here while they were traveling through Seattle — same care with thick, straight hair that we give in the chair here.",
         })
+
+    # Layer on the hand-written sample vouches. These give the prototype enough
+    # density to show what the split score actually does — a shop reading 95% on
+    # the hair it knows and 40% on hair it doesn't is the product's entire
+    # argument, and that's invisible when every shop has one vouch at 100%.
+    known_ids = {b["id"] for b in barbers}
+    for barber_id, entries in EXTRA_VOUCHES.items():
+        if barber_id not in known_ids:
+            print(f"  ! skipping unknown barber id: {barber_id}")
+            continue
+        subject = next(b for b in barbers if b["id"] == barber_id)
+        for voucher, tag, sentiment, language, quote, identity in entries:
+            vouch_seq += 1
+            vouches.append({
+                "id": f"x{vouch_seq}",
+                "voucherId": voucher,
+                "voucherType": "customer",
+                "subjectId": barber_id,
+                "tag": tag,
+                "sentiment": sentiment,
+                "identityBadge": identity,
+                "language": language,
+                "quote": quote,
+            })
+            # Keep the barber's own tag list in step, so a shop that people
+            # vouch about for curly hair actually lists curly hair.
+            if tag not in subject["hairTags"]:
+                subject["hairTags"].append(tag)
 
     out = {
         "cities": list(CITY_META.values()),

@@ -15,6 +15,7 @@ import CautionCard from "../../../components/CautionCard";
 import HomeBarberVouchBanner from "../../../components/HomeBarberVouchBanner";
 import BookingButton from "../../../components/BookingButton";
 import OwnerVoiceCard from "../../../components/OwnerVoiceCard";
+import SplitScore from "../../../components/SplitScore";
 
 // The flagship screen — every other part of the schema exists to feed this
 // page. Stable, shareable route, since being screenshotted and passed around
@@ -57,12 +58,6 @@ export default function BarberProfilePage({ params }) {
             <Stat value={`${headline.percent}%`} label={`on ${headline.tag}`} />
           )}
           <Stat value={vouches.length} label={vouches.length === 1 ? "vouch" : "vouches"} />
-          {languages.length > 0 && (
-            <Stat
-              value={languages.length}
-              label={languages.length === 1 ? "language vouched in" : "languages vouched in"}
-            />
-          )}
           {/* A headline percentage on one tag shouldn't read as an all-clear
               when a caution sits on another. Surfaced here, in clay, so the
               two are seen together. */}
@@ -79,19 +74,36 @@ export default function BarberProfilePage({ params }) {
       <HomeBarberVouchBanner barberId={barber.id} />
 
       <section className="px-8 py-9">
-        {(hairTags.length > 0 || serviceTags.length > 0) && (
-          <div className="mb-8 grid gap-5 sm:grid-cols-2">
-            {hairTags.length > 0 && (
-              <TagBlock title="Vouched for hair" tags={hairTags} />
-            )}
-            {serviceTags.length > 0 && (
-              <TagBlock title="Services mentioned" tags={serviceTags} />
-            )}
+        <div className="mb-8 grid gap-x-5 gap-y-6 sm:grid-cols-2">
+          {hairTags.length > 0 && (
+            <TagBlock title="Vouched for hair" tags={hairTags} />
+          )}
+          {serviceTags.length > 0 && (
+            <TagBlock title="Services mentioned" tags={serviceTags} />
+          )}
+          {/* The practical question for a traveler: can I actually talk to
+              this person. Listed, not counted — a number tells you nothing. */}
+          {barber.languagesSpoken?.length > 0 && (
+            <TagBlock title="Speaks" tags={barber.languagesSpoken} />
+          )}
+        </div>
+
+        {languages.length > 0 && (
+          <div className="label mb-8">
+            Vouches written in {languages.join(", ")}
           </div>
         )}
 
-        {languages.length > 0 && (
-          <div className="label mb-8">Reviews in {languages.join(", ")}</div>
+        {scores.length > 1 && (
+          <div className="mb-9">
+            <div className="label mb-3">Split score, by tag</div>
+            <SplitScore scores={scores} />
+            <p className="mt-3 max-w-[460px] text-[11px] leading-relaxed text-muted-2">
+              Scored per tag, not blended. A shop can be the best in the city
+              for one kind of hair and unremarkable for another — that&apos;s
+              the point.
+            </p>
+          </div>
         )}
 
         {recommends.length > 0 && (

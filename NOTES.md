@@ -7,6 +7,13 @@ scratchpad, not a spec.
 
 - _(nothing yet — add notes here as they come up)_
 
+## Watch
+
+- **`languagesSpoken` is inferred, not declared.** The generator guesses it
+  from review text plus the city's default language, so a shop may list a
+  language nobody there actually speaks. Per the spec this field is meant to be
+  self-declared by the barber — it becomes real when operator accounts exist.
+
 ## Known limitations, already understood
 
 Not bugs, but worth remembering before anyone asks:
@@ -26,3 +33,7 @@ Not bugs, but worth remembering before anyone asks:
 ## Done
 
 - Wordmark set as `aznbrbr`, no space.
+- Replaced the "languages vouched in" count on the profile with **Speaks**,
+  listing the actual languages. The vouch-language stat moved to a small line
+  reading "Vouches written in X" — honest, but no longer masquerading as
+  practical information.
