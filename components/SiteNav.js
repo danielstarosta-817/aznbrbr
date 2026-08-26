@@ -15,8 +15,8 @@ export default function SiteNav({ cities, allBarbers }) {
         href="/"
         className="font-display text-[19px] font-semibold uppercase tracking-label"
       >
-        azn brbr
-      </Link>
+        aznbrbr
+</Link>
 
       <div className="flex items-center gap-7">
         {!onLanding && (
