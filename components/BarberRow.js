@@ -68,7 +68,7 @@ export default function BarberRow({ barber, activeTag, selected, onSelect }) {
             <Abacus
               score={headline.score}
               tone={headline.score < 3 ? "weak" : "good"}
-              height={38}
+              width={96}
             />
           </>
         ) : (

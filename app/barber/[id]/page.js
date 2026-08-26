@@ -57,7 +57,7 @@ export default function BarberProfilePage({ params }) {
         <div className="mt-7 flex flex-wrap items-center gap-9 border-t border-paper/20 pt-5">
           {headline && (
             <div className="flex items-center gap-4">
-              <Abacus score={headline.score} tone="light" height={62} />
+              <Abacus score={headline.score} tone="light" width={168} />
               <Stat
                 value={headline.score.toFixed(1)}
                 label={`on ${headline.tag}`}

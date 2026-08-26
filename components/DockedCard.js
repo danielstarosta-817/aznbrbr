@@ -41,7 +41,7 @@ export default function DockedCard({ barber, activeTag }) {
             <Abacus
               score={headline.score}
               tone={headline.score < 3 ? "weak" : "good"}
-              height={36}
+              width={92}
             />
           </div>
         )}

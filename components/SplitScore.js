@@ -15,7 +15,7 @@ export default function SplitScore({ scores }) {
 
         return (
           <div key={s.tag} className="flex items-center gap-5 py-4">
-            <Abacus score={s.score} tone={weak ? "weak" : "good"} height={44} />
+            <Abacus score={s.score} tone={weak ? "weak" : "good"} width={124} />
 
             <div className="min-w-0 flex-1">
               <div className="flex items-baseline gap-2.5">

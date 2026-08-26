@@ -1,104 +1,97 @@
-// Scores render on a soroban rather than a progress bar — the rating is the
-// one thing every visitor looks at, so it may as well carry the product's
-// identity instead of looking like every other directory.
+// Scores render on an abacus instead of stars — the rating is the first thing
+// anyone looks at, so it may as well carry the product's identity.
 //
-// Real soroban notation, not decoration: each rod has one heaven bead above the
-// beam worth 5, and four earth beads below worth 1 each. A bead counts when
-// it's pushed toward the beam. Two rods here — units and tenths — so 4.2 reads
-// as four earth beads up on the left rod, two on the right.
+// Five rods, five beads each. Every bead is worth 0.2, so a whole point fills a
+// rod and the remainder shows in fifths on the next one: 3.8 is three full rods
+// plus four beads. Counted beads are pushed to the top of the frame and
+// coloured; the rest rest at the bottom, faint.
 //
-// It's paired with the numeral everywhere it appears, so nobody has to know how
-// to read an abacus to know the score.
+// This is a stylisation, not a working suanpan — a real one has a beam with
+// heaven beads above and earth beads below, and encodes digits per rod. Two
+// earlier versions went that way and both read as clutter at feed size,
+// especially repeated down a list. Rods-as-points is the deliberate trade: it
+// keeps the object recognisable and the score instantly legible. The numeral
+// sits beside it everywhere it appears, so nothing depends on reading beads.
 
-const BEAD_W = 8.5;
-const BEAD_H = 4.6;
-const BEAM_Y = 26;
-const TOP = 5;
-const BOTTOM = 71;
+const RODS = 5;
+const BEADS_PER_ROD = 5;
+const STEP = 22;
+const PAD_X = 14;
+const BEAD_RX = 8.0;
+const BEAD_RY = 5.4;
+const GAP = 11.6;
+const TOP_IN = 9;
 
-function Bead({ cx, cy, fill }) {
-  const pts = [
-    `${cx - BEAD_W},${cy}`,
-    `${cx},${cy - BEAD_H}`,
-    `${cx + BEAD_W},${cy}`,
-    `${cx},${cy + BEAD_H}`,
-  ].join(" ");
-  return <polygon points={pts} fill={fill} />;
-}
+const VIEW_W = PAD_X * 2 + STEP * (RODS - 1);
+const VIEW_H = TOP_IN * 2 + GAP * (BEADS_PER_ROD - 1) + BEAD_RY * 2 + 8;
+const BOTTOM_IN = VIEW_H - TOP_IN;
 
-function Rod({ x, digit, active, idle }) {
-  const heavenOn = digit >= 5;
-  const earthOn = digit % 5;
+export default function Abacus({ score, tone = "good", width = 104, className = "" }) {
+  const value = Math.max(0, Math.min(5, score || 0));
+  const litTotal = Math.round(value * BEADS_PER_ROD);
 
-  const beads = [];
-
-  // Heaven bead: rests at the top, drops to the beam when it counts.
-  beads.push(
-    <Bead
-      key="h"
-      cx={x}
-      cy={heavenOn ? BEAM_Y - 7 : TOP + 6}
-      fill={heavenOn ? active : idle}
-    />
-  );
-
-  // Earth beads: rest at the bottom, rise to the beam when they count.
-  for (let i = 0; i < 4; i++) {
-    const on = i < earthOn;
-    const cy = on
-      ? BEAM_Y + 8 + i * 10
-      : BOTTOM - 6 - (3 - i) * 10;
-    beads.push(<Bead key={`e${i}`} cx={x} cy={cy} fill={on ? active : idle} />);
-  }
-
-  return (
-    <g>
-      <line x1={x} y1={TOP} x2={x} y2={BOTTOM} stroke={idle} strokeWidth="1" />
-      {beads}
-    </g>
-  );
-}
-
-export default function Abacus({ score, tone = "good", height = 46, className = "" }) {
-  const clamped = Math.max(0, Math.min(5, score || 0));
-  const units = Math.floor(clamped);
-  const tenths = Math.round((clamped - units) * 10);
-
-  // "light" is for the profile masthead, which sits on deep forest — the
-  // dark-on-cream palette would vanish there.
   const light = tone === "light";
-  const active = light ? "#F7F3EC" : tone === "weak" ? "#B0552B" : "#1E3A32";
-  const idle = light ? "rgba(247,243,236,0.28)" : "#DCD3C0";
-  const frame = light ? "rgba(247,243,236,0.75)" : tone === "weak" ? "#B0552B" : "#1E3A32";
-
-  const W = 62;
-  const H = 76;
+  const weak = tone === "weak";
+  const frameColor = light ? "rgba(247,243,236,0.80)" : "#1E3A32";
+  const rodColor = light ? "rgba(247,243,236,0.45)" : "#C9BFA8";
+  const litColor = light ? "#F7F3EC" : weak ? "#B0552B" : "#1E3A32";
+  const restColor = light ? "rgba(247,243,236,0.22)" : "#DCD3C0";
 
   return (
     <svg
-      viewBox={`0 0 ${W} ${H}`}
-      height={height}
-      width={(height * W) / H}
+      viewBox={`0 0 ${VIEW_W} ${VIEW_H}`}
+      width={width}
+      height={(width * VIEW_H) / VIEW_W}
       className={className}
       role="img"
-      aria-label={`${clamped.toFixed(1)} out of 5`}
+      aria-label={`${value.toFixed(1)} out of 5`}
       style={{ display: "block" }}
     >
       <rect
-        x="1"
-        y="1"
-        width={W - 2}
-        height={H - 2}
-        rx="2"
+        x="1.75"
+        y="1.75"
+        width={VIEW_W - 3.5}
+        height={VIEW_H - 3.5}
+        rx="3"
         fill="none"
-        stroke={frame}
-        strokeWidth="1.5"
+        stroke={frameColor}
+        strokeWidth="3.5"
       />
-      <line x1="1" y1={BEAM_Y} x2={W - 1} y2={BEAM_Y} stroke={frame} strokeWidth="1.5" />
-      {/* Unit-rod marker, as on a real soroban. */}
-      <circle cx="20" cy={BEAM_Y} r="1.4" fill={frame} />
-      <Rod x={20} digit={units} active={active} idle={idle} />
-      <Rod x={42} digit={tenths} active={active} idle={idle} />
+      {Array.from({ length: RODS }, (_, rod) => {
+        const cx = PAD_X + rod * STEP;
+        const lit = Math.max(
+          0,
+          Math.min(BEADS_PER_ROD, litTotal - rod * BEADS_PER_ROD)
+        );
+        return (
+          <g key={rod}>
+            <line
+              x1={cx}
+              y1={TOP_IN - 4}
+              x2={cx}
+              y2={BOTTOM_IN + 4}
+              stroke={rodColor}
+              strokeWidth="2"
+            />
+            {Array.from({ length: BEADS_PER_ROD }, (_, i) => {
+              const isLit = i < lit;
+              const cy = isLit
+                ? TOP_IN + BEAD_RY + i * GAP
+                : BOTTOM_IN - BEAD_RY - (BEADS_PER_ROD - 1 - i) * GAP;
+              return (
+                <ellipse
+                  key={i}
+                  cx={cx}
+                  cy={cy}
+                  rx={BEAD_RX}
+                  ry={BEAD_RY}
+                  fill={isLit ? litColor : restColor}
+                />
+              );
+            })}
+          </g>
+        );
+      })}
     </svg>
   );
 }

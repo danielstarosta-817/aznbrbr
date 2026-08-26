@@ -33,6 +33,15 @@ Not bugs, but worth remembering before anyone asks:
 ## Done
 
 - Wordmark set as `aznbrbr`, no space.
+- Scores moved from a percentage to **out of 5.0, rendered on an abacus**
+  (`components/Abacus.js`). Five rods, five beads, each bead worth 0.2. It's a
+  stylisation, not a working suanpan — two more faithful versions (two-rod
+  soroban, then a beam with heaven/earth beads) both read as clutter at feed
+  size. The numeral appears beside it everywhere, so nothing depends on being
+  able to read beads.
+- Roughly 60 hand-written sample vouches added across 18 shops, so the split
+  score has enough density to actually show a shop being strong on one kind of
+  hair and ordinary on another.
 - Replaced the "languages vouched in" count on the profile with **Speaks**,
   listing the actual languages. The vouch-language stat moved to a small line
   reading "Vouches written in X" — honest, but no longer masquerading as
