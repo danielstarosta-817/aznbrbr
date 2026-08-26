@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useHomeBarber } from "./HomeBarberContext";
+import Abacus from "./Abacus";
 import {
   getHomeBarberVouch,
   getSplitScore,
@@ -46,22 +47,32 @@ export default function BarberRow({ barber, activeTag, selected, onSelect }) {
         <div className="label mt-1 truncate">{barber.neighborhood}</div>
       </div>
 
-      <div className="text-right">
+      <div className="flex items-center gap-3">
         {headline ? (
           <>
-            <div className="font-display text-2xl font-light text-forest">
-              {headline.percent}
-              <span className="text-[13px]">%</span>
+            <div className="text-right">
+              <div
+                className={`font-display text-2xl font-light leading-none ${
+                  headline.score < 3 ? "text-clay-2" : "text-forest"
+                }`}
+              >
+                {headline.score.toFixed(1)}
+              </div>
+              <div className="label mt-1">{headline.tag}</div>
+              {cautionCount > 0 && (
+                <div className="mt-0.5 text-[9.5px] font-medium uppercase tracking-[0.12em] text-clay-2">
+                  {cautionCount} caution{cautionCount > 1 ? "s" : ""}
+                </div>
+              )}
             </div>
-            <div className="label mt-0.5">{headline.tag}</div>
+            <Abacus
+              score={headline.score}
+              tone={headline.score < 3 ? "weak" : "good"}
+              height={38}
+            />
           </>
         ) : (
           <div className="label">No vouches yet</div>
-        )}
-        {cautionCount > 0 && (
-          <div className="mt-0.5 text-[9.5px] font-medium uppercase tracking-[0.12em] text-clay-2">
-            {cautionCount} caution{cautionCount > 1 ? "s" : ""}
-          </div>
         )}
       </div>
     </div>

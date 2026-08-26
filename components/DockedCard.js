@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { getSplitScore, getTagPercent, getVouchLanguages } from "../lib/data";
+import Abacus from "./Abacus";
 
 // Deliberately minimal — name, the one headline number, and a way in. The full
 // profile is one click away and shouldn't be duplicated here.
@@ -26,12 +27,22 @@ export default function DockedCard({ barber, activeTag }) {
           <div className="label mt-1 truncate">{barber.neighborhood}</div>
         </div>
         {headline && (
-          <div className="shrink-0 text-right">
-            <div className="font-display text-[26px] font-light leading-none text-forest">
-              {headline.percent}
-              <span className="text-[13px]">%</span>
+          <div className="flex shrink-0 items-center gap-2.5">
+            <div className="text-right">
+              <div
+                className={`font-display text-[26px] font-light leading-none ${
+                  headline.score < 3 ? "text-clay-2" : "text-forest"
+                }`}
+              >
+                {headline.score.toFixed(1)}
+              </div>
+              <div className="label mt-1">{headline.tag}</div>
             </div>
-            <div className="label mt-1">{headline.tag}</div>
+            <Abacus
+              score={headline.score}
+              tone={headline.score < 3 ? "weak" : "good"}
+              height={36}
+            />
           </div>
         )}
       </div>

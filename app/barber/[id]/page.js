@@ -16,6 +16,7 @@ import HomeBarberVouchBanner from "../../../components/HomeBarberVouchBanner";
 import BookingButton from "../../../components/BookingButton";
 import OwnerVoiceCard from "../../../components/OwnerVoiceCard";
 import SplitScore from "../../../components/SplitScore";
+import Abacus from "../../../components/Abacus";
 
 // The flagship screen — every other part of the schema exists to feed this
 // page. Stable, shareable route, since being screenshotted and passed around
@@ -53,9 +54,15 @@ export default function BarberProfilePage({ params }) {
           </h1>
         </div>
 
-        <div className="mt-7 flex flex-wrap gap-9 border-t border-paper/20 pt-5">
+        <div className="mt-7 flex flex-wrap items-center gap-9 border-t border-paper/20 pt-5">
           {headline && (
-            <Stat value={`${headline.percent}%`} label={`on ${headline.tag}`} />
+            <div className="flex items-center gap-4">
+              <Abacus score={headline.score} tone="light" height={62} />
+              <Stat
+                value={headline.score.toFixed(1)}
+                label={`on ${headline.tag}`}
+              />
+            </div>
           )}
           <Stat value={vouches.length} label={vouches.length === 1 ? "vouch" : "vouches"} />
           {/* A headline percentage on one tag shouldn't read as an all-clear
